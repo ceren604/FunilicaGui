@@ -1,0 +1,11 @@
+local a = {}
+function a:Assign(player)
+   local g = Instance.new("ScreenGui")
+   g.Parent = player
+   local fr = Instance.new("Frame")
+   fr.Size = UDim2.new(0,1,0,1)
+   fr.Parent = g
+   local tx = Instance.new("TextLabel")
+   tx.Parent = fr
+   tx.Text = "Injecting..."
+end
