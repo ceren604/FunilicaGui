@@ -9,3 +9,5 @@ function a:Assign(player)
    tx.Parent = fr
    tx.Text = "Injecting..."
 end
+
+return a
